@@ -5,9 +5,11 @@ Este projeto é um algoritmo de classificação supervisionada utilizando Árvor
 ## 🚀 Tecnologias Utilizadas
 🔹Python
 
-🔹Pandas – Estruturação e análise de dados
+🔹Numpy
 
-🔹Scikit-Learn – Implementação da Árvore de Decisão
+🔹Pandas 
+
+🔹Scikit-Learn
 
 ## 📊  Como o algoritmo funciona?
 O modelo é treinado com um conjunto de dados que contém informações sobre conversas passadas e se esses contatos resultaram em encontros - e caso resultou - se o encontro foi bom ou ruim. Ele aprende a identificar padrões e a classificar novos casos com base em características específicas. Utilizei um modelo de Árvore de Decisão, que divide os dados em ramificações com base em perguntas sobre as features, classificando o resultado final em uma das três categorias de destino.
